@@ -20,7 +20,7 @@ void loop(){
         Serial.println("stopping...");
         return;
     }
-    client.println("We are friend right shourya");
+    client.println("We are friend right human");
     client.read();
     digitalWrite(led, HIGH);
     delay(100);
