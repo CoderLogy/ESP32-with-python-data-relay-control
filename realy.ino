@@ -1,8 +1,8 @@
 #include <WiFi.h>
-const char* ssid = "Jio Home";
-const char* pass = "JH25021978";
+const char* ssid = "wifi ip address";
+const char* pass = "wifi password";
 const uint16_t port = 8091;
-const char* host = "192.168.29.128";
+const char* host = "ip of your host";
 int led = 2;
 void setup(){
     pinMode(led, OUTPUT);
